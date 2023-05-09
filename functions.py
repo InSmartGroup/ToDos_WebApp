@@ -1,4 +1,4 @@
-FILEPATH = r"C://Users//gostapenko//PycharmProjects//Python_Mega_Course//3_ToDo_Web_App//todos.txt"
+FILEPATH = "todos.txt"
 
 
 def file_read(filepath=FILEPATH):
