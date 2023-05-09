@@ -1,5 +1,6 @@
 FILEPATH = "todos.txt"
 
+
 def file_read(filepath=FILEPATH):
     with open(filepath, 'r') as file:
         content = file.readlines()
@@ -14,4 +15,3 @@ def file_rewrite(data, filepath=FILEPATH):
 def file_add(data, filepath=FILEPATH):
     with open(filepath, 'a+') as file:
         file.write(data)
-
