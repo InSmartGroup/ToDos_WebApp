@@ -1,6 +1,5 @@
 FILEPATH = "todos.txt"
 
-
 def file_read(filepath=FILEPATH):
     with open(filepath, 'r') as file:
         content = file.readlines()
